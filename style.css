@@ -1,0 +1,54 @@
+body{
+    background: lightyellow;
+    background: linear-gradient(to right, #e6ab0b, #203a43, #ee0404);
+}
+
+.container{
+    display: flexl;
+    justify-content: center;
+    margin-top:12em;
+}
+
+.inner{
+    text-align:center;
+    color: whitesmoke;
+    overflow: hidden;
+    padding:0.4em;
+}
+
+.inner >h1{
+    font-size:4.5em;
+    animation: Slide_Up 2.4s ease;
+    color:green;
+}
+
+.inner >h4{
+    color: black;
+    font-size:3.5em;
+    animation: Slide_Up 2.4s ease;
+}
+
+.inner >p{
+    
+    font-size:1.2em;
+    animation: Slide_Up 3.4s ease;
+}
+
+.inner > button{
+    margin-top:2em;
+    padding: 1em;
+    border-radius:4em;
+    border: none;
+    background: #320370;
+    color: whitesmoke;
+    animation: Slide_Up 4.4s ease;
+}
+
+@keyframes Slide_Up{
+    0%{
+        transform:translateY(250px);
+    }
+    100%{
+        transform:translateY(0);
+    }
+}
